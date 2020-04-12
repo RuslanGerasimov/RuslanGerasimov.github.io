@@ -24455,13 +24455,13 @@ let currentPageDevs = 1;
 
 // pagiantorDevs.classList.toggle('paginator_hide', panelCountDevs < 7);
 
-$('.card').each(function(e) {
-    if ($(this).hasClass('card_size_s')) {
-        $(this).css({'border-radius': '22px'})
-    } else {
-        $(this).css({'border-radius': '54px'})
-    }
-});
+// $('.card').each(function(e) {
+//     if ($(this).hasClass('card_size_s')) {
+//         $(this).css({'border-radius': '22px'})
+//     } else {
+//         $(this).css({'border-radius': '54px'})
+//     }
+// });
 
 
 let curValue;
@@ -24705,7 +24705,7 @@ var storage, initCriticalCam = function () {
     }), document.addEventListener("pointerup", e), g.addEventListener("onpointerup", e)
 };
 
-$(document).ready(function(){
+document.addEventListener("DOMContentLoaded", function(){
 
     var carousel = $("#carousel");
 

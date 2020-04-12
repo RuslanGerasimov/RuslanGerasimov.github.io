@@ -306,7 +306,11 @@ h6, .h6 {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border-radius: 0.25rem;
+  /*border-radius: 0.25rem;*/
+  border-radius: 54px;
+}
+.card.card_size_x {
+  border-radius: 22px;
 }
 
 .card > hr {
